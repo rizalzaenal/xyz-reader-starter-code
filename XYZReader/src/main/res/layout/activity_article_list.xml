@@ -10,7 +10,8 @@
         android:layout_height="140dp"
         android:fitsSystemWindows="true"
         android:background="@color/theme_primary"
-        android:theme="@style/Theme.Bacon">
+        android:theme="@style/Theme.Bacon"
+        app:elevation="4dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -19,6 +20,7 @@
             android:fitsSystemWindows="true"
             app:contentScrim="@color/theme_primary"
             app:expandedTitleMarginStart="48dp"
+            app:titleEnabled="false"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlwaysCollapsed">
 
             <android.support.v7.widget.Toolbar
